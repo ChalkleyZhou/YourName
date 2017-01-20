@@ -1,0 +1,14 @@
+{
+  "pages":[
+
+    "pages/name/name",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "好名字",
+    "navigationBarTextStyle":"black"
+  }
+}
