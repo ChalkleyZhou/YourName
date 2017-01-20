@@ -1,24 +1,25 @@
 <view>
-    姓：<input type="text" bindinput="changeFirstName"/>
-   
-    <radio-group class="radio-group" bindchange="sexChange">
-        <label class="radio">
-            <radio value="0" checked="checked"/>男
-        </label>
-        <label class="radio">
-            <radio value="1"/>女
-        </label>
-    </radio-group>
-    <br/>
-    <radio-group class="radio-group" bindchange="numChange">
-        <label class="radio">
-            <radio value="0" checked="checked"/>单名
-        </label>
-        <label class="radio">
-            <radio value="1"/>双名
-        </label>
-    </radio-group>
-    <br/>
-    <button bindtap="getName">一键取名</button>
-
+  <view class="first-name-box">
+    <text class="">姓：</text>
+    <input type="text" class="" bindinput="changeFirstName" />
+  </view>
+  <radio-group class="radio-group" bindchange="sexChange">
+    <label class="radio">
+      <radio value="0" checked="checked" />男
+    </label>
+    <label class="radio">
+      <radio value="1" />女
+    </label>
+  </radio-group>
+  <br/>
+  <radio-group class="radio-group" bindchange="numChange">
+    <label class="radio">
+      <radio value="0" checked="checked" />单名
+    </label>
+    <label class="radio">
+      <radio value="1" />双名
+    </label>
+  </radio-group>
+  <br/>
+  <button bindtap="getName">一键取名</button>
 </view>
